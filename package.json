@@ -1,6 +1,6 @@
 {
   "name": "@asl-19/eslint-config-typescript-react",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Shared ESLint config for ASL19 TypeScript + React projects",
   "author": {
     "name": "Grant Heaslip",
@@ -20,10 +20,10 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
+    "@asl-19/eslint-config-typescript": "^0.4.3",
     "eslint-config-airbnb-typescript": "^7.2.1"
   },
   "devDependencies": {
-    "@asl-19/eslint-config-typescript": "^0.4.3",
     "@types/node": "^12.12.42",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
