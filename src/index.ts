@@ -5,15 +5,15 @@ const eslintConfigTypescriptReact = {
     "@asl-19/typescript",
     "prettier/react",
   ],
-  plugins: ["emotion"],
+  plugins: ["@emotion"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
   },
   rules: {
-    "emotion/jsx-import": "error",
-    "emotion/syntax-preference": ["error", "string"],
+    "@emotion/jsx-import": "error",
+    "@emotion/syntax-preference": ["error", "string"],
     // Via https://github.com/evcohen/eslint-plugin-jsx-a11y/issues/402#issuecomment-368305051
     // Required until https://github.com/zeit/next.js/issues/5533 is resolved
     "jsx-a11y/anchor-is-valid": [
