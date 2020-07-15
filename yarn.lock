@@ -46,6 +46,11 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@emotion/eslint-plugin@^11.0.0-next.10":
+  version "11.0.0-next.10"
+  resolved "https://registry.yarnpkg.com/@emotion/eslint-plugin/-/eslint-plugin-11.0.0-next.10.tgz#0cb387c44d0ba9354c564c25bbafcabee2b29d2e"
+  integrity sha512-5jr5Aw3ucv2aUopIJnGnwki30RooBGZzCB3M9vE8lAvFdC+HqJ35DE4Pmy35LI/r0W6sABh0pJNbTsA9bmEG4A==
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -511,11 +516,6 @@ eslint-module-utils@^2.4.1:
   dependencies:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
-
-eslint-plugin-emotion@^10.0.27:
-  version "10.0.27"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-emotion/-/eslint-plugin-emotion-10.0.27.tgz#577a4265cc679f7bb826437a92fb9d709928e0a7"
-  integrity sha512-0IG9KWmyQTAWZNM4WoGjFbdre1Xq6uMp2jYOSHvh3ZNcDfOjOLXeH3ky1MuWZlbWIHxz/Ed5DMGlJAeKnd26VA==
 
 eslint-plugin-import@^2.20.2:
   version "2.20.2"
